@@ -1,9 +1,9 @@
 package com.javaacademy;
 
-public class GarbageNotRefactorableException extends Exception{
-    public GarbageNotRefactorableException() {
-    }
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+public class GarbageNotRefactorableException extends Exception {
     public GarbageNotRefactorableException(String message) {
         super(message);
     }
